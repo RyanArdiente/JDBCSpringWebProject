@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+#tabledata{
+	background-color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#display {
+    width: 600px;
+    overflow: auto;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    vertical-align: 20%;
+
+  }
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  margin-top: 120px;
+  top: 30px;
+  right: 500px;
+  bottom: 500px;
+  left: 0;
+  width: 100px;
+  height: 15px;
+  border-radius: 3px;
+}
+th {
+  text-align: center;
+  border: 4px solid black;
+}
+td {
+  text-align: center;
+  border: 2px solid black;
+
+}
